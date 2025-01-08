@@ -1,6 +1,6 @@
 # Prueba Técnica - AllRide
 ## Autor: Fernando Muñoz.
-![image](https://github.com/user-attachments/assets/6d4fff9f-8d88-40d8-90c1-8bb06214cc99)
+![image](https://github.com/user-attachments/assets/0ede390b-f945-4ba6-a513-b3aa628bb6ec)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.19.
 
@@ -21,8 +21,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 3. ```ng serve```
 
 ## ¡Y listo! Debe estar funcionando correctamente el sistema.
-Imagen de muestra:
-![image](https://github.com/user-attachments/assets/82bcc01f-d3ef-43b0-893d-7a5aece95db7)
-
+### Imagen de muestra:
+![image](https://github.com/user-attachments/assets/cc2681d5-9257-496d-8232-fb349de97376)
 
 Si tienen alguna consulta, no duden en contactarme.
