@@ -1,0 +1,29 @@
+<main>
+    <h1>Geolocalización y mapa.</h1>
+    <div class="input-container">
+        <input
+            [(ngModel)]='address'
+            #addressInput
+            type="text"
+            placeholder="Ingresa una dirección"
+        />
+        <button (click)="sendAddress()">Enviar</button>
+    </div>
+    <agm-map
+        id="map-container"
+        [latitude]="center.lat"
+        [longitude]="center.lng"
+        [zoom]="zoom"
+        [streetViewControl]="false"
+        [mapTypeControl]="false"
+        [zoomControl]="true"
+        (mapReady)="onMapReady($event)"
+        style="height: 500px; width: 100%;"
+    >
+        <agm-marker
+            *ngFor="let marker of markers"
+            [latitude]="marker.lat"
+            [longitude]="marker.lng"
+        ></agm-marker>
+    </agm-map>
+</main>

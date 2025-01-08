@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+/* 1. Reset básico para eliminar inconsistencias entre navegadores */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Asegura que el padding y border se incluyan en el tamaño total */
+}
+
+html {
+    font-family: Calibri, sans-serif;
+}
+
+/* 3. Configuración global del body */
+body {
+    margin: 0 25% 0 25%;
+    min-height: 100vh;
+    background-color: #f9f9f9; /* Fondo claro y limpio */
+    -webkit-font-smoothing: antialiased; /* Mejora el renderizado de fuentes */
+    -moz-osx-font-smoothing: grayscale;
+}
