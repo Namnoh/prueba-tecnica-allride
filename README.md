@@ -21,3 +21,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 3. ```ng serve```
 
 ## ¡Y listo! Debe estar funcionando correctamente el sistema.
+Imagen de muestra:
+![image](https://github.com/user-attachments/assets/82bcc01f-d3ef-43b0-893d-7a5aece95db7)
+
+
+Si tienen alguna consulta, no duden en contactarme.
