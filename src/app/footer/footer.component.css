@@ -1,0 +1,10 @@
+footer {
+    width: 100%;
+    text-align: center;
+    margin: 2rem 0 2rem 0;
+}
+
+p {
+    font-weight: 600;
+    opacity: 0.5;
+}

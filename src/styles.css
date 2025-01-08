@@ -19,3 +19,43 @@ body {
     -webkit-font-smoothing: antialiased; /* Mejora el renderizado de fuentes */
     -moz-osx-font-smoothing: grayscale;
 }
+
+.pretty-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -10;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    background-image: 
+        linear-gradient(to right, #f0f0f0 1px, transparent 1px),
+        linear-gradient(to bottom, #f0f0f0 1px, transparent 1px);
+    background-size: 6rem 4rem;
+}
+
+/* 640px */
+@media (max-width: 640px) {
+    body {
+        margin: 0 5% 0 5%;
+    }
+}
+
+/* 768px */
+@media (min-width: 768px) {
+    body {
+        margin: 0 10% 0 10%
+    }
+}
+
+/* 1024px */
+/* @media (min-width: 1024px) {} */
+
+/* 1280px */
+@media (min-width: 1280px) {
+    body {
+        margin: 0 30% 0 30%;
+    }
+}

@@ -1,21 +1,109 @@
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    opacity: 0.75;
+}
+
 #map-container {
     height: calc(100% - 60px);
+    border-radius: 3rem; /* Ajusta el valor según lo necesites */
+    overflow: hidden; /* Asegura que los elementos del mapa no sobresalgan del borde redondeado */
+    -webkit-box-shadow: 3px 8px 9px -2px rgba(0,0,0,0.25); 
+    box-shadow: 3px 8px 9px -2px rgba(0,0,0,0.25);
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.advice {
+    width: 100%;
+    text-align: center;
+    opacity: 0.75;
+    font-size: 0.9rem;
 }
 
 .input-container {
-display: flex;
-padding: 10px;
-background-color: #fff;
+    display: flex;
+    padding: 10px;
+    gap: 1rem;
+    /* background-color: #fff; */
+    box-sizing: border-box;
 }
 
 .input-container input {
-flex: 1;
-padding: 5px;
-font-size: 16px;
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;  /* Bordes personalizados */
+    border-radius: 4px;  /* Bordes redondeados */
+    outline: none;  /* Eliminar contorno predeterminado */
+    /* background-color: #f9f9f9;  Fondo personalizado */
+    transition: border-color 0.3s ease-in-out;  /* Transición suave para el borde */
 }
 
-.input-container button {
-margin-left: 10px;
-padding: 5px 10px;
-font-size: 16px;
+/* Estilo cuando el input está en foco */
+.input-container input:focus {
+    border-color: #29a8df;  /* Cambiar color del borde cuando está en foco */
+    background-color: #fff;  /* Cambiar fondo cuando está en foco */
 }
+
+/* Estilos para el botón */
+.input-container button {
+    padding: 10px 20px;  /* Espaciado interno (arriba/abajo, izquierda/derecha) */
+    font-size: 16px;  /* Tamaño de la fuente */
+    font-weight: bold;  /* Hacer la fuente en negrita */
+    color: white;  /* Color de la fuente */
+    background-color: #29a8df;  /* Color de fondo del botón */
+    border: none;  /* Sin borde por defecto */
+    border-radius: 5px;  /* Bordes redondeados */
+    cursor: pointer;  /* Cambiar el cursor cuando se pasa sobre el botón */
+    transition: background-color 0.3s ease, transform 0.2s ease;  /* Transición suave para el fondo y el tamaño */
+}
+
+/* Efecto al pasar el cursor sobre el botón */
+.input-container button:hover {
+    background-color: #258ab6;  /* Color de fondo cuando el cursor está sobre el botón */
+}
+
+/* Efecto al hacer clic en el botón (foco) */
+.input-container button:active {
+    transform: scale(0.88);  /* Reducir ligeramente el tamaño del botón */
+}
+
+/* Estilos para el botón cuando está en foco */
+.input-container button:focus {
+    outline: none;  /* Quitar el contorno de foco predeterminado */
+    box-shadow: 0 0 0 3px #1f7599;  /* Sombra para indicar que el botón está en foco */
+}
+
+/* 640px */
+@media (max-width: 370px) {
+    .input-container {
+        flex-direction: column;
+    }
+}
+
+/* 768px */
+@media (min-width: 768px) {
+    body {
+        margin: 0 10% 0 10%
+    }
+}
+
+/* 1024px */
+/* @media (min-width: 1024px) {} */
+
+/* 1280px */
+/* @media (min-width: 1280px) {} */
