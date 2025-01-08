@@ -1,27 +1,28 @@
-# PruebaTecnicaAllride
+# Prueba Técnica - AllRide
+## Autor: Fernando Muñoz.
+![image](https://github.com/user-attachments/assets/6d4fff9f-8d88-40d8-90c1-8bb06214cc99)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.19.
 
-## Development server
+## Versiones a Considerar:
+- Angular: 11.2.19
+- Node.js: 12.22.12
+- NPM: 6.14.16
+- Socket.IO: 3.4.0
+- AGM: 1.0.0
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Despliegue:
+- Plataforma: Vercel.
+- Link: [https://prueba-tecnica-allride.vercel.app/](https://prueba-tecnica-allride.vercel.app/)
 
-## Code scaffolding
+## Pasos para Correr el Proyecto:
+1. Instalar todas las versiones bases de angular y node.js, anteriormente mencionadas, correctamente.
+2. ```npm install```
+3. ```ng serve```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## ¡Y listo! Debe estar funcionando correctamente el sistema.
+Imagen de muestra:
+![image](https://github.com/user-attachments/assets/82bcc01f-d3ef-43b0-893d-7a5aece95db7)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Si tienen alguna consulta, no duden en contactarme.
